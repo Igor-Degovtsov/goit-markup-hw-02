@@ -16,6 +16,7 @@ body {
 
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 
 /*header*/
@@ -35,7 +36,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 
@@ -46,15 +46,15 @@ body {
 
 .header-logo {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--active-text-color);
+  color: var(--accent-text-color);
 }
 
 .logo-color-header {
-  color: var(--accent-text-color);
+  color: var(--active-text-color);
 }
 /*main*/
 .hero {
@@ -62,20 +62,19 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: var(--second-text-color);
+}
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
 }
 
 .button {
   font-family: inherit;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--second-text-color);
 }
@@ -91,44 +90,34 @@ body {
 /*under-hero*/
 
 .uh-title {
-  font-style: Bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  line-height: 100%;
-  box-align: left;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--accent-text-color);
 }
 
 .uh-item {
-  font-style: regular;
   font-size: 14px;
   line-height: 1.71;
-  line-height: 146%;
-  box-align: left;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
 /*work*/
 
 .paragraph {
-  font-style: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  line-height: 100%;
-  box-align: centre;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--accent-text-color);
 }
 
 /*our-works*/
 
 .works-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -136,7 +125,7 @@ body {
 }
 
 .works-item {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -148,10 +137,7 @@ body {
   font-style: medium;
   font-size: 16px;
   line-height: 1.18;
-  line-height: 100%;
-  box-align: center;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--accent-text-color);
 }
 
@@ -159,10 +145,7 @@ body {
   font-style: regular;
   font-size: 16px;
   line-height: 1.71;
-  line-height: 100%;
-  box-align: centre;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
@@ -173,22 +156,21 @@ body {
 
 .footer-logo {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--active-text-color);
+  color: var(--second-text-color);
 }
 
 .logo-color-footer {
-  color: var(--second-text-color);
+  color: var(--active-text-color);
 }
 
 .footer-link {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
